@@ -1,6 +1,6 @@
 {
   "name": "easygraphql-format-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Return custom errors with statusCode",
   "main": "index.js",
   "scripts": {
