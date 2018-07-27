@@ -56,20 +56,5 @@ describe('Get Errors with message and code', () => {
         expect(error.statusCode).to.be.eq(400)
       }
     })
-
-    it('Should get Invalid email format error with the statusCode', async () => {
-      let error
-      try {
-        formatError.getError({ message: 'Invalid email' })
-      } catch (err) {
-        error = err
-      }
-
-      if (!error) {
-        throw new Error('There should be an error')
-      }
-
-      expect(error.message).to.be.eq('Invalid email error is not defined on easygraphql-formatError')
-    })
   })
 })
