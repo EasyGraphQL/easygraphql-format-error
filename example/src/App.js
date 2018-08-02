@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 const formatError = new FormatError([{
   name: 'INVALID_EMAIL',
   message: 'The email is not valid',
-  statusCode: '400'
+  statusCode: 400
 }])
 const errorName = formatError.errorName
 
