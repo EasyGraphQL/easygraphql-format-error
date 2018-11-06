@@ -10,6 +10,9 @@ Easy GraphQL Format Error is a node library used to handle the errors and return
 status code.
 
 ## Installation
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/EasyGraphQL/easygraphql-format-error.svg)](https://greenkeeper.io/)
+
 ```bash
 $ npm install easygraphql-format-error --save
 ```
